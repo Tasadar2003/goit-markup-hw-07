@@ -1,0 +1,30 @@
+/* UTILS styles */
+
+@import './utils/vars';
+
+/* BASE styles */
+
+@import './base/common';
+@import './base/reset';
+
+/* COMPONENTS styles */
+
+@import './components/container';
+@import './components/logo';
+@import './components/social';
+@import './components/buttons';
+@import './components/project-card';
+@import './components/forma';
+
+/* LAYOUTS styles */
+
+@import './layouts/header';
+@import './layouts/title';
+@import './layouts/main';
+@import './layouts/advantage';
+@import './layouts/works';
+@import './layouts/team';
+@import './layouts/partners';
+@import './layouts/portfolio';
+@import './layouts/footer';
+@import './layouts/modal';

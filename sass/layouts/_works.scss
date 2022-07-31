@@ -1,0 +1,54 @@
+/* СТИЛЬ СЕКЦІЇЇ ЧИМ МИ ЗАЙМАЄМОСЬ */
+
+.title-h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--main-txt-cl);
+    padding-bottom: 50px;
+}
+
+.work {
+    padding-bottom: 94px;
+}
+
+.works {
+    display: flex;
+    margin: -15px;
+    margin-right: auto;
+    margin-left: auto;
+    &:not(:last-child) {
+        margin: 0;
+    }
+}
+
+.worked {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.work-img {
+    width: calc(100% / 3 - 30px);
+    margin: 15px;
+}
+
+.work-name {
+    position: absolute;
+    top: 216px;
+    color: var(--secondary-txt-cl);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    background: #2f303acc;
+    padding-top: 28px;
+    width: 360px;
+    height: 70px;
+    min-height: 16px;
+}

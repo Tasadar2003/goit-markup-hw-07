@@ -1,0 +1,34 @@
+//VARS
+:root {
+    /* FONTS */
+    --main-fonts: "Roboto", sans-serif;
+    --secondary-font: "Raleway", sans-serif;
+    /* TXT CL */
+    --main-txt-cl: #212121;
+    --secondary-txt-cl: #FFFFFF;
+    --thirty-txt-cl: #2196F3;
+    --fourth-txt-cl: #757575;
+    /* BG CL */
+    --main-bg-cl: #23242C;
+    --secondary-bg-cl: #2196F3;
+    --thirty-bg-cl: #188CE8;
+    --fourth-bg-cl: #F5F4FA;
+    --fifth-bg-cl: #FFFFFF;
+    --sixth_bg-cl: #2F303A;
+    /* OTHERS */
+    --main-cl: #212121;
+    --secondary-cl: #FFFFFF;
+    --thirty-cl: #2196F3;
+    --fourth-cl: #757575;
+    /* ICO CL */
+    --main-ico-cl: #757575;
+    --secondary-ico-cl: #2196F3;
+    --thirty-ico-cl: #FFFFFF;
+    --fourth-ico-cl: #AFB1B8;
+    /* таблиця для портфоліо */
+    --items: 3;
+    --indent: 30px;
+    /* ANIMATION */
+    --anim-slow: 600ms cubic-bezier(0.4, 0, 0.2, 1);
+    --anim-fast: 300ms cubic-bezier(0.4, 0, 0.2, 1);
+}

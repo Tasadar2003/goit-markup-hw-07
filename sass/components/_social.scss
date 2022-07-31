@@ -1,0 +1,101 @@
+/* СТИЛЬ ІКОНОК СОЦІАЛЬНИХ МЕРЕЖ */
+
+.team-social {
+    height: 44px;
+    & .link {
+        transition: color var(--anim-slow), background-color var(--anim-slow);
+        transition-delay: 300ms;
+    }
+}
+
+.team-social-icon {
+    fill: var(--fourth-ico-cl);
+}
+
+.team-social-item {
+    width: 44px;
+    height: 44px;
+    &:not(:last-child) {
+        margin-right: 10px;
+    }
+}
+
+.link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--secondary-cl);
+    background-color: var(--fifth-bg-cl);
+    border-radius: 50%;
+    &:focus,
+    &:hover {
+        background-color: var(--thirty-bg-cl);
+        &>.team-social-icon {
+            fill: var(--thirty-ico-cl);
+        }
+    }
+}
+
+.list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: color var(--anim-slow);
+}
+
+
+/* СТИЛЬ ІКОНОК У FOOTERi*/
+
+.subscribe-svg {
+    position: absolute;
+    fill: var(--thirty-ico-cl);
+    top: 13px;
+    right: 28px;
+}
+
+.social-icons {
+    margin-left: 70px;
+}
+
+.social-icons-txt {
+    color: var(--secondary-txt-cl);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.social-icons-list {
+    display: flex;
+    align-items: center;
+    margin-top: 16px;
+    width: auto;
+}
+
+.social-link {
+    display: flex;
+    width: 44px;
+    height: 44px;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #ffffff1a;
+    align-items: center;
+    transition: background-color var(--anim-slow);
+    transition-delay: 300ms;
+    &:hover,
+    &:focus {
+        background-color: var(--secondary-bg-cl);
+    }
+}
+
+.social-icon-item {
+    &:not(:last-child) {
+        margin-right: 10px;
+    }
+}
+
+.media-link {
+    fill: var(--thirty-ico-cl);
+}

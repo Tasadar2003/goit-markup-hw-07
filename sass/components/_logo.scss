@@ -1,0 +1,32 @@
+/* СТИЛЬ ЛОГОТИПА У ШАПЦІ САЙТУ */
+
+.lg {
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--thirty-txt-cl);
+    margin-top: 24px;
+}
+
+.lg-txt {
+    color: var(--main-txt-cl);
+}
+
+
+/* СТИЛЬ ЛОГОТИПА У FOOTERi */
+
+.lg-foot {
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--thirty-txt-cl);
+    padding-bottom: 20px;
+}
+
+.lg-foot-txt {
+    color: var(--secondary-txt-cl);
+}

@@ -1,0 +1,72 @@
+/*СТИЛЬ СЕКЦІЇ PROJECTS*/
+
+.project-name {
+    padding: 20px 24px;
+}
+
+.title-project {
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--main-txt-cl);
+    margin-bottom: 4px;
+}
+
+.subtitle-project {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+    color: var(--fourth-txt-cl);
+    margin: 0;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -15px;
+}
+
+.project {
+    box-sizing: border-box;
+    background-color: var(--fifth-bg-cl);
+    border: 1px solid #EEEEEE;
+    margin: 15px;
+    width: calc(100% / 3 - 30px);
+    position: relative;
+}
+
+.project:focus,
+.project:hover {
+    box-shadow: 0px 1px 1px #0000001f, 0px 4px 4px #0000000f, 1px 4px 6px #00000029;
+}
+
+.project:hover .desc {
+    transform: translateY(0);
+}
+
+.photo-project {
+    overflow: hidden;
+    position: relative;
+}
+
+.desc {
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: translateY(102%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2196F3E5;
+    padding: 65px 24px;
+    transition: transform var(--anim-fast);
+}
+
+.desc-txt {
+    color: var(--secondary-txt-cl);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5;
+    letter-spacing: 0.03em;
+}

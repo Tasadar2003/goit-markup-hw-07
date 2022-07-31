@@ -1,0 +1,40 @@
+/*СТИЛЬ СЕКЦІЇ PARTNERS*/
+
+.partners {
+    padding: 94px 0;
+}
+
+.client-list {
+    display: flex;
+}
+
+.client-item {
+    width: 170px;
+    height: 92px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &:not(:last-child) {
+        margin-right: 30px;
+    }
+    &:hover,
+    &:focus {
+        border-color: var(--thirty-cl);
+    }
+}
+
+.client-item>.client {
+    transition: fill var(--anim-slow);
+    transition-delay: 300ms;
+}
+
+.client-item:hover>.client,
+.client-item:focus>.client {
+    fill: var(--secondary-ico-cl);
+}
+
+.client {
+    fill: var(--fourth-ico-cl);
+}
