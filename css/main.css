@@ -51,6 +51,7 @@ a {
 ul,
 div,
 h2,
+h3,
 p {
   margin: 0;
   padding: 0;
@@ -603,7 +604,7 @@ header {
   padding: 94px 0;
 }
 
-.advan-list {
+.advantage__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -614,13 +615,13 @@ header {
   gap: 30px;
 }
 
-.advan-item {
+.advantage__item {
   width: calc(33.3333333333% - 30px);
   margin: 0;
   display: block;
 }
 
-.advan-ico {
+.advantage__icon {
   width: 270px;
   height: 120px;
   background-color: var(--fourth-bg-cl);
@@ -641,7 +642,7 @@ header {
   height: 70px;
 }
 
-.advan-title {
+.advantage__title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -652,7 +653,7 @@ header {
   margin-bottom: 10px;
 }
 
-.advan-txt {
+.advantage__txt {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
@@ -662,7 +663,7 @@ header {
 }
 
 /* СТИЛЬ СЕКЦІЇЇ ЧИМ МИ ЗАЙМАЄМОСЬ */
-.title-h2 {
+.work__title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -701,12 +702,12 @@ header {
           align-items: center;
 }
 
-.work-img {
+.work__img {
   width: calc(33.3333333333% - 30px);
   margin: 15px;
 }
 
-.work-name {
+.work__name {
   position: absolute;
   top: 216px;
   color: var(--secondary-txt-cl);
@@ -724,7 +725,17 @@ header {
 }
 
 /* СТИЛЬ СЕКЦІЇ НАША КОМАНДА */
-.team-list {
+.team__title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-txt-cl);
+  padding-bottom: 50px;
+}
+
+.team__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -735,7 +746,7 @@ header {
       -ms-flex-pack: center;
           justify-content: center;
 }
-.team-list:not(:last-child) {
+.team__list:not(:last-child) {
   margin: 0;
 }
 
@@ -744,7 +755,7 @@ header {
   padding: 94px 0;
 }
 
-.team-item {
+.team__item {
   background-color: var(--fifth-bg-cl);
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1215686275), 0px 1px 1px rgba(0, 0, 0, 0.1411764706), 0px 2px 1px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1215686275), 0px 1px 1px rgba(0, 0, 0, 0.1411764706), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -781,17 +792,27 @@ header {
 }
 
 /*СТИЛЬ СЕКЦІЇ PARTNERS*/
-.partners {
+.client__title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-txt-cl);
+  padding-bottom: 50px;
+}
+
+.clients {
   padding: 94px 0;
 }
 
-.client-list {
+.client__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.client-item {
+.client__item {
   width: 170px;
   height: 92px;
   border: 1px solid #AFB1B8;
@@ -806,22 +827,22 @@ header {
       -ms-flex-align: center;
           align-items: center;
 }
-.client-item:not(:last-child) {
+.client__item:not(:last-child) {
   margin-right: 30px;
 }
-.client-item:hover, .client-item:focus {
+.client__item:hover, .client__item:focus {
   border-color: var(--thirty-cl);
 }
 
-.client-item > .client {
+.client__item > .client {
   -webkit-transition: fill var(--anim-slow);
   transition: fill var(--anim-slow);
   -webkit-transition-delay: 300ms;
           transition-delay: 300ms;
 }
 
-.client-item:hover > .client,
-.client-item:focus > .client {
+.client__item:hover > .client,
+.client__item:focus > .client {
   fill: var(--secondary-ico-cl);
 }
 
