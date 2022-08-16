@@ -1,6 +1,6 @@
 /* СТИЛЬ СЕКЦІЇЇ ЧИМ МИ ЗАЙМАЄМОСЬ */
 
-.title-h2 {
+.work__title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
@@ -31,12 +31,12 @@
     align-items: center;
 }
 
-.work-img {
+.work__img {
     width: calc(100% / 3 - 30px);
     margin: 15px;
 }
 
-.work-name {
+.work__name {
     position: absolute;
     top: 216px;
     color: var(--secondary-txt-cl);
